@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$(".board, .courseInfo, .duration").hide();
 	// Fetching data from json file
-	$.getJSON("../assignment/course-data.json", function (data) {
+	$.getJSON("./course-data.json", function (data) {
 		// ITERATING THROUGH OBJECTS
 		$('.monthly-courses').click(function(){
 			$(".courseBtn").removeClass("selected");
